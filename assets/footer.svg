@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="900" height="140">
+  <defs>
+    <linearGradient id="h1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B6F07A"/>
+      <stop offset="1" stop-color="#3FA535"/>
+    </linearGradient>
+    <linearGradient id="h2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7BD957"/>
+      <stop offset="1" stop-color="#1F7A2E"/>
+    </linearGradient>
+    <radialGradient id="b" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.6" stop-color="#9BE3FF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#9BE3FF" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+  <path d="M0 70 Q160 20 340 60 T680 55 T900 35 L900 140 L0 140Z" fill="url(#h1)"/>
+  <path d="M0 100 Q200 65 420 92 T900 78 L900 140 L0 140Z" fill="url(#h2)"/>
+  <g stroke="#9BE3FF" stroke-opacity="0.8" stroke-width="1.5">
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="6s" repeatCount="indefinite"/>
+      <circle cx="120" cy="40" r="20" fill="url(#b)"/>
+      <ellipse cx="113" cy="33" rx="6" ry="3.5" fill="#FFFFFF" stroke="none" opacity="0.8"/></g>
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="5s" repeatCount="indefinite"/>
+      <circle cx="450" cy="25" r="14" fill="url(#b)"/>
+      <ellipse cx="445" cy="20" rx="4" ry="2.5" fill="#FFFFFF" stroke="none" opacity="0.8"/></g>
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="8s" repeatCount="indefinite"/>
+      <circle cx="780" cy="30" r="26" fill="url(#b)"/>
+      <ellipse cx="771" cy="21" rx="8" ry="4.5" fill="#FFFFFF" stroke="none" opacity="0.8"/></g>
+  </g>
+</svg>
