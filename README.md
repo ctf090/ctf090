@@ -29,6 +29,10 @@
 
 Arch Linux · Vim · Git
 
+### 🫧 status
+
+<img src="assets/status.svg" width="100%" alt="status" />
+
 <br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-ctf090-0D8BE8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ctf090)

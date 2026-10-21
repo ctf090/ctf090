@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0D8BE8"/>
+      <stop offset="0.6" stop-color="#5CC8F5"/>
+      <stop offset="1" stop-color="#C9F0FF"/>
+    </linearGradient>
+    <linearGradient id="h1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B6F07A"/>
+      <stop offset="1" stop-color="#3FA535"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="bub" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.6" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.55"/>
+    </radialGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0A5C99" flood-opacity="0.45"/>
+    </filter>
+    <filter id="ts" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#0A4F85" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="240" rx="18" fill="url(#sky)"/>
+  <path d="M0 200 Q160 160 340 190 T680 184 T900 168 L900 240 L0 240Z" fill="url(#h1)"/>
+
+  <g filter="url(#sh)">
+    <rect x="30" y="34" width="256" height="150" rx="16" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1.5"/>
+    <rect x="34" y="38" width="248" height="52" rx="13" fill="url(#gloss)"/>
+    <rect x="322" y="34" width="256" height="150" rx="16" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1.5"/>
+    <rect x="326" y="38" width="248" height="52" rx="13" fill="url(#gloss)"/>
+    <rect x="614" y="34" width="256" height="150" rx="16" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1.5"/>
+    <rect x="618" y="38" width="248" height="52" rx="13" fill="url(#gloss)"/>
+  </g>
+
+  <g font-family="'Segoe UI','Trebuchet MS',Verdana,sans-serif" fill="#FFFFFF" filter="url(#ts)">
+    <text x="158" y="72" text-anchor="middle" font-size="15" letter-spacing="2" opacity="0.9">FOCO</text>
+    <text x="158" y="116" text-anchor="middle" font-size="28" font-weight="700">C++ &amp; Linux</text>
+    <text x="158" y="148" text-anchor="middle" font-size="14" opacity="0.9">sistemas e baixo nível</text>
+
+    <text x="450" y="72" text-anchor="middle" font-size="15" letter-spacing="2" opacity="0.9">PROJETO ATUAL</text>
+    <text x="450" y="116" text-anchor="middle" font-size="28" font-weight="700">monitor-sistema</text>
+    <text x="450" y="148" text-anchor="middle" font-size="14" opacity="0.9">lendo o /proc em C++</text>
+
+    <text x="742" y="72" text-anchor="middle" font-size="15" letter-spacing="2" opacity="0.9">META</text>
+    <text x="742" y="116" text-anchor="middle" font-size="28" font-weight="700">dev sênior</text>
+    <text x="742" y="148" text-anchor="middle" font-size="14" opacity="0.9">constância todo dia</text>
+  </g>
+
+  <g stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="1.5">
+    <circle cx="22" cy="200" r="16" fill="url(#bub)"/>
+    <circle cx="306" cy="198" r="10" fill="url(#bub)"/>
+    <circle cx="598" cy="204" r="12" fill="url(#bub)"/>
+    <circle cx="884" cy="196" r="14" fill="url(#bub)"/>
+    <circle cx="880" cy="26" r="9" fill="url(#bub)"/>
+  </g>
+</svg>
