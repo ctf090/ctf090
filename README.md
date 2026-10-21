@@ -19,6 +19,12 @@
 
 **segurança** (pentest, OSINT, engenharia reversa) · **sistemas e redes** · **backend e bancos de dados** · **arquitetura distribuída** · **frontend em Rust (Leptos/Tauri)**
 
+
+### 🫧 status
+
+<img height="170" alt="status" src="https://github-readme-stats.vercel.app/api?username=ctf090&show_icons=true&hide_border=false&bg_color=180,0D8BE8,5CC8F5&title_color=FFFFFF&text_color=FFFFFF&icon_color=B6F07A&border_color=7BD957&ring_color=FFFFFF" />
+<img height="170" alt="linguagens" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ctf090&layout=compact&bg_color=180,3FA535,B6F07A&title_color=FFFFFF&text_color=FFFFFF&border_color=0D8BE8" />
+
 ### 💧 dia a dia
 
 Arch Linux · Vim · Git
