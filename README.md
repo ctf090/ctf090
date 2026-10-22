@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Cena animada](assets/banner.png)](https://ctf090.github.io/ctf090/)
+[![Cena animada](assets/banner.svg)](https://ctf090.github.io/ctf090/)
 
 
 <sub>jogos · bots de Discord · ferramentas web</sub>
