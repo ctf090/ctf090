@@ -2,7 +2,6 @@
 
 [![Cena animada](assets/banner.png)](https://ctf090.github.io/ctf090/)
 
-<img src="assets/banner.png" width="100%" alt="ctf_- · desenvolvedor independente" />
 
 <sub>jogos · bots de Discord · ferramentas web</sub>
 
@@ -38,4 +37,3 @@ Arch Linux · Vim · Git
 
 </div>
 
-[Ver a cena animada](https://ctf090.github.io/ctf090/)
