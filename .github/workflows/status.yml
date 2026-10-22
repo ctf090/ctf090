@@ -2,12 +2,10 @@ name: Atualizar status
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
-    paths:
-      - "scripts/gen_status.py"
-      - "assets/fundo.*"
+    branches: [main]
 
 permissions:
   contents: write
