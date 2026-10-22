@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="ctf_- · desenvolvedor independente" />
+<img src="assets/banner.png" width="100%" alt="ctf_- · desenvolvedor independente" />
 
 <sub>jogos · bots de Discord · ferramentas web</sub>
 
