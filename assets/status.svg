@@ -1,66 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240">
-  <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0D8BE8"/>
-      <stop offset="0.6" stop-color="#5CC8F5"/>
-      <stop offset="1" stop-color="#C9F0FF"/>
-    </linearGradient>
-    <linearGradient id="h1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#B6F07A"/>
-      <stop offset="1" stop-color="#3FA535"/>
-    </linearGradient>
-    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
-      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.12"/>
-    </linearGradient>
-    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.6"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="bub" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0.6" stop-color="#FFFFFF" stop-opacity="0.05"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.55"/>
-    </radialGradient>
-    <filter id="sh" x="-10%" y="-10%" width="120%" height="140%">
-      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0A5C99" flood-opacity="0.45"/>
-    </filter>
-    <filter id="ts" x="-10%" y="-10%" width="120%" height="140%">
-      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#0A4F85" flood-opacity="0.6"/>
-    </filter>
-  </defs>
-
-  <rect width="900" height="240" rx="18" fill="url(#sky)"/>
-  <path d="M0 200 Q160 160 340 190 T680 184 T900 168 L900 240 L0 240Z" fill="url(#h1)"/>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320">
+<style>
+  text { font-family: 'Segoe UI','Trebuchet MS',Verdana,sans-serif; fill: #FFFFFF; }
+  .ttl { font-size: 20px; font-weight: 700; }
+  .lbl { font-size: 15px; opacity: .95; }
+  .val { font-size: 17px; font-weight: 700; }
+  .bub { animation: float 7s ease-in-out infinite; }
+  .bub:nth-of-type(2n) { animation-duration: 9s; }
+  @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-12px) } }
+  .sweep { animation: sweep 6s ease-in-out infinite; }
+  @keyframes sweep { 0% { transform: translateX(-340px) } 60%,100% { transform: translateX(360px) } }
+</style>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0D8BE8"/><stop offset=".6" stop-color="#5CC8F5"/><stop offset="1" stop-color="#C9F0FF"/>
+  </linearGradient>
+  <linearGradient id="h1" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#B6F07A"/><stop offset="1" stop-color="#3FA535"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity=".45"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".18"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".1"/>
+  </linearGradient>
+  <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity=".55"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".35"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="bub" cx=".5" cy=".5" r=".5">
+    <stop offset=".6" stop-color="#FFFFFF" stop-opacity=".05"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".55"/>
+  </radialGradient>
+  <filter id="sh" x="-10%" y="-10%" width="120%" height="140%">
+    <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0A5C99" flood-opacity=".45"/>
+  </filter>
+  <filter id="ts"><feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#0A4F85" flood-opacity=".6"/></filter>
+  <clipPath id="c1"><rect x="30" y="30" width="400" height="250" rx="18"/></clipPath>
+  <clipPath id="c2"><rect x="470" y="30" width="400" height="250" rx="18"/></clipPath>
+  <clipPath id="all"><rect width="900" height="320" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#all)">
+  <rect width="900" height="320" fill="url(#sky)"/>
+  <path d="M0 270 Q160 225 340 255 T680 248 T900 228 L900 320 L0 320Z" fill="url(#h1)"/>
+  
   <g filter="url(#sh)">
-    <rect x="30" y="34" width="256" height="150" rx="16" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1.5"/>
-    <rect x="34" y="38" width="248" height="52" rx="13" fill="url(#gloss)"/>
-    <rect x="322" y="34" width="256" height="150" rx="16" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1.5"/>
-    <rect x="326" y="38" width="248" height="52" rx="13" fill="url(#gloss)"/>
-    <rect x="614" y="34" width="256" height="150" rx="16" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1.5"/>
-    <rect x="618" y="38" width="248" height="52" rx="13" fill="url(#gloss)"/>
+    <rect x="30" y="30" width="400" height="250" rx="18" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity=".8" stroke-width="1.5"/>
+    <rect x="470" y="30" width="400" height="250" rx="18" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity=".8" stroke-width="1.5"/>
   </g>
-
-  <g font-family="'Segoe UI','Trebuchet MS',Verdana,sans-serif" fill="#FFFFFF" filter="url(#ts)">
-    <text x="158" y="72" text-anchor="middle" font-size="15" letter-spacing="2" opacity="0.9">FOCO</text>
-    <text x="158" y="116" text-anchor="middle" font-size="28" font-weight="700">C++ &amp; Linux</text>
-    <text x="158" y="148" text-anchor="middle" font-size="14" opacity="0.9">sistemas e baixo nível</text>
-
-    <text x="450" y="72" text-anchor="middle" font-size="15" letter-spacing="2" opacity="0.9">PROJETO ATUAL</text>
-    <text x="450" y="116" text-anchor="middle" font-size="28" font-weight="700">monitor-sistema</text>
-    <text x="450" y="148" text-anchor="middle" font-size="14" opacity="0.9">lendo o /proc em C++</text>
-
-    <text x="742" y="72" text-anchor="middle" font-size="15" letter-spacing="2" opacity="0.9">META</text>
-    <text x="742" y="116" text-anchor="middle" font-size="28" font-weight="700">dev sênior</text>
-    <text x="742" y="148" text-anchor="middle" font-size="14" opacity="0.9">constância todo dia</text>
+  <rect x="34" y="34" width="392" height="60" rx="14" fill="url(#gloss)"/>
+  <rect x="474" y="34" width="392" height="60" rx="14" fill="url(#gloss)"/>
+  <g clip-path="url(#c1)"><rect class="sweep" x="30" y="30" width="120" height="250" fill="url(#shine)" transform="skewX(-15)"/></g>
+  <g clip-path="url(#c2)"><rect class="sweep" x="470" y="30" width="120" height="250" fill="url(#shine)" transform="skewX(-15)" style="animation-delay:1.5s"/></g>
+  <g filter="url(#ts)">
+    <text x="62" y="72" class="ttl">Status da conta</text>
+    <text x="62" y="118" class="lbl">Repositórios</text><text x="400" y="118" class="val" text-anchor="end">2</text><text x="62" y="152" class="lbl">Estrelas</text><text x="400" y="152" class="val" text-anchor="end">1</text><text x="62" y="186" class="lbl">Seguidores</text><text x="400" y="186" class="val" text-anchor="end">0</text><text x="62" y="220" class="lbl">Commits (último ano)</text><text x="400" y="220" class="val" text-anchor="end">16</text>
+    <text x="494" y="72" class="ttl">Linguagens</text>
+    <text x="494" y="112" class="lbl">Python</text><text x="838" y="112" class="val" text-anchor="end">91%</text><rect x="494" y="120" width="344" height="9" rx="4.5" fill="#FFFFFF" opacity="0.25"/><rect x="494" y="120" width="310" height="9" rx="4.5" fill="#FFFFFF"/><text x="494" y="150" class="lbl">C++</text><text x="838" y="150" class="val" text-anchor="end">9%</text><rect x="494" y="158" width="344" height="9" rx="4.5" fill="#FFFFFF" opacity="0.25"/><rect x="494" y="158" width="32" height="9" rx="4.5" fill="#D6F3FF"/>
   </g>
-
-  <g stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="1.5">
-    <circle cx="22" cy="200" r="16" fill="url(#bub)"/>
-    <circle cx="306" cy="198" r="10" fill="url(#bub)"/>
-    <circle cx="598" cy="204" r="12" fill="url(#bub)"/>
-    <circle cx="884" cy="196" r="14" fill="url(#bub)"/>
-    <circle cx="880" cy="26" r="9" fill="url(#bub)"/>
+  <g stroke="#FFFFFF" stroke-opacity=".75" stroke-width="1.5">
+    <circle class="bub" cx="18" cy="290" r="16" fill="url(#bub)"/>
+    <circle class="bub" cx="450" cy="296" r="11" fill="url(#bub)"/>
+    <circle class="bub" cx="884" cy="288" r="15" fill="url(#bub)"/>
+    <circle class="bub" cx="884" cy="22" r="9" fill="url(#bub)"/>
   </g>
+</g>
 </svg>
