@@ -3,7 +3,7 @@
 ![ctf_- · desenvolvedor independente](assets/banner.svg)
 
 
-<h2>jogos · bots de Discord · ferramentas web</h2>
+<h2>jogos · bots de Discord · ferramentas · web</h2>
 
 <br/><br/>
 
