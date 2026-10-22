@@ -19,9 +19,9 @@
 
 **segurança** (pentest, OSINT, engenharia reversa) · **sistemas e redes** · **backend e bancos de dados** · **arquitetura distribuída** · **frontend em Rust (Leptos/Tauri)**
 
-<img width="48%" alt="status" src="https://github-readme-stats.vercel.app/api?username=ctf090&show_icons=true&border_radius=20&hide_border=true&card_width=420&bg_color=180,0D8BE8,5CC8F5&title_color=FFFFFF&text_color=FFFFFF&icon_color=B6F07A&ring_color=FFFFFF&custom_title=Status%20da%20conta" />
-<img width="48%" alt="linguagens" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ctf090&layout=compact&border_radius=20&hide_border=true&card_width=420&bg_color=180,3FA535,B6F07A&title_color=FFFFFF&text_color=FFFFFF&custom_title=Linguagens" />
 
+
+<img src="assets/status.svg" width="100%" alt="status" />
 
 ### 💧 dia a dia
 
