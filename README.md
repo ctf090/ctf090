@@ -15,5 +15,4 @@ Estou construindo: monitor de sistema em C++, bots de segurança para Discord e 
 <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white">
 <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ctf090&show_icons=true&theme=dark" width="400">
 <img src="https://img.shields.io/github/followers/ctf090?style=for-the-badge">
