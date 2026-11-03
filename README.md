@@ -1,4 +1,3 @@
-<img src="banner.jpg" width="100%">
 
 ## CTF_-
 
