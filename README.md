@@ -1,4 +1,4 @@
-<img src="banner.jpg" width="500">
+<img src="banner.jpg" width="100%">
 
 ## CTF_-
 
